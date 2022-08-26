@@ -9,7 +9,12 @@ public class TestHelloWorld {
 
     @Test
     public void testSayHello() {
-        System.out.println("Hello, World!");
+
+        assertEquals("Hello, World!", HelloWorld.sayHello());
     }
 
-}
+    }
+
+
+
+
